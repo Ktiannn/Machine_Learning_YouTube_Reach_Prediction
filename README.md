@@ -1,1 +1,2 @@
 # Machine Learning - YouTube Reach Level Prediction
+This project was developed as a team collaboration. I was responsible for the data processing pipeline, which involved transforming raw datasets into a modeled-ready version and performing feature engineering to extract 14 key predictors, and then developed and executed the XGBoost model to generate the final predictive results. My teammates focused on the Random Forest model and the cross-model performance comparison.
