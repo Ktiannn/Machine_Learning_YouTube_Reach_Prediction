@@ -65,8 +65,8 @@ Logical Consistency Check: The Confusion Matrix confirmed that errors occurred a
 </details>
 
 ### Quick Links
-* [**Data Cleaning & Preprocessing (.ipynb)**](./notebooks/youtube_datacleaning.ipynb)
-* [**XGBoost Modeling (.ipynb)**](./notebooks/youtube_XGBoost.ipynb)
+* [**Data Cleaning & Preprocessing (.ipynb)**](./notebooks/Youtube_datacleaning.ipynb)
+* [**XGBoost Modeling (.ipynb)**](./notebooks/Youtube_XGBoost.ipynb)
 * [**Read Final Report (PDF)**](./Machine_Learning_Project_Report.pdf)
 * [**Presentation Slides (PDF)**](./Machine_Learning_Project_ppt.pdf)
 * [**Dataset (CSV)**](./data/youtube_hktw_cleaned.csv)
