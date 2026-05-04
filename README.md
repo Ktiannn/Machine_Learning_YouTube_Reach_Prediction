@@ -46,7 +46,7 @@ Level 2 Recall: 0.63
 <details>
   <summary>Click to view XGboots Score</summary>
   <br>
-  <img src="./img/My_Dashboard_1_Overview.png" width="600">
+  <img src="./img/XGboots_Final_Score.png" width="600">
 </details>
 
 ## Key Insights & Feature Importance
@@ -61,5 +61,10 @@ Logical Consistency Check: The Confusion Matrix confirmed that errors occurred a
 <details>
   <summary>Click to view a subplots of XGboots performance</summary>
   <br>
-  <img src="./img/My_Dashboard_1_Overview.png" width="600">
+  <img src="./img/XGboots_subplots.png" width="600">
 </details>
+
+### Quick Links
+* [**Read Final Report (PDF)**](./Machine_Learning_Project_Report.pdf)
+* [**Presentation Slides (PDF)**](./Machine_Learning_Project_ppt.pdf)
+* [**Dataset (CSV)**](./data/youtube_hktw_cleaned.csv)
