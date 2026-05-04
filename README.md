@@ -16,7 +16,7 @@ This project was developed as a team collaboration. I was responsible for the da
 | :--- | :--- | :--- |
 | **Level 1** | < 278,219 | 25th - 50th |
 | **Level 2** | 278,219 - 933,977 | 50th - 75th |
-| **Level 3** | ≥ 933,978 | > 75th
+| **Level 3** | ≥ 933,978 | > 75th |
 
 At the beginning, a basic set of 11 features was established. However, through iterative testing and hyperparameter tuning, the results remained unsatisfactory, primarily due to the low recall and Macro F1-score for Level 2 videos.
 
@@ -28,7 +28,7 @@ Furthermore, we integrated channel-related features and performed transformation
 | **Video Characteristics** | is_shorts, duration_seconds, category_id, trending_country, licensed_content |
 | **Publishing Strategy** | title_length, tag_count, publish_hour, day_of_week |
 
-## Modeling (XGBoots)
+## Modeling (XGBoost)
   Our strategy focused on Learning Rate, Max Depth, and N-estimators. To specifically address class imbalance, we applied:
 
 * **Sample Weighting:** Utilized class_weight=**'balanced'** to prioritize minority classes.
@@ -44,9 +44,9 @@ Macro F1-Score: 0.74
 Level 2 Recall: 0.63
 
 <details>
-  <summary>Click to view XGboots Score</summary>
+  <summary>Click to view Detailed Classification Report</summary>
   <br>
-  <img src="./img/XGboots_Final_Score.png" width="600">
+  <img src="./img/XGBoost_Final_Score.png" width="600">
 </details>
 
 ## Key Insights & Feature Importance
@@ -59,9 +59,9 @@ The model’s Gain-based Feature Importance revealed the primary drivers of YouT
 Logical Consistency Check: The Confusion Matrix confirmed that errors occurred almost exclusively between adjacent levels (e.g., misclassifying L1 as L2), proving the model captured the ordinal nature of video reach.
 
 <details>
-  <summary>Click to view a subplots of XGboots performance</summary>
+  <summary>Click to view XGBoost Performance Diagnostics</summary>
   <br>
-  <img src="./img/XGboots_subplots.png" width="600">
+  <img src="./img/XGBoost_subplots.png" width="600">
 </details>
 
 ### Quick Links
