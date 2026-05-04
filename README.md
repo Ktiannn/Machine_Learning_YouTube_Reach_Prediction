@@ -43,6 +43,12 @@ Macro F1-Score: 0.74
 
 Level 2 Recall: 0.63
 
+<details>
+  <summary>Click to view XGboots Score</summary>
+  <br>
+  <img src="./img/My_Dashboard_1_Overview.png" width="600">
+</details>
+
 ## Key Insights & Feature Importance
 The model’s Gain-based Feature Importance revealed the primary drivers of YouTube Reach:
 
@@ -51,3 +57,9 @@ The model’s Gain-based Feature Importance revealed the primary drivers of YouT
 * Duration_seconds: Highlights the importance of video length in audience retention and trending algorithms.
 
 Logical Consistency Check: The Confusion Matrix confirmed that errors occurred almost exclusively between adjacent levels (e.g., misclassifying L1 as L2), proving the model captured the ordinal nature of video reach.
+
+<details>
+  <summary>Click to view a subplots of XGboots performance</summary>
+  <br>
+  <img src="./img/My_Dashboard_1_Overview.png" width="600">
+</details>
